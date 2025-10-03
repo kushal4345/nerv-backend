@@ -1,0 +1,70 @@
+# Node / Vite
+node_modules/
+dist/
+.cache/
+.vite/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env (keep only .env.example in git)
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+*.local
+*.out
+*.tmp
+*.temp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Uploads (server-side storage)
+NERV/uploads/
+uploads/
+
+# Mongo/DB dumps
+dump/
+*.bson
+*.mongodb
+
+# Firebase/Secrets (never commit service accounts or keys)
+firebase-adminsdk-*.json
+serviceAccount*.json
+*.pem
+*.key
+
+# Python (FastAPI service)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.eggs/
+build/
+dist/
+.coverage
+coverage.xml
+htmlcov/
+
+# Uvicorn/Server logs
+uvicorn.log
+gunicorn*.log
+
+# Tests snapshots/artifacts
+*.snap
+junit.xml
