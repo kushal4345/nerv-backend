@@ -1,8 +1,5 @@
 fastapi
 uvicorn
-pydantic
-python-multipart
-python-docx
-pdfminer.six
-openai>=1.0.0
+motor
 python-dotenv
+openai>=1.35.0
